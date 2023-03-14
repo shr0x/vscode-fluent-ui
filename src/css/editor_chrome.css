@@ -38,7 +38,7 @@
     /* Cards */
     --depth-8: 0 3.2px 7.2px 0 rgba(0, 0, 0, 0.132), 0 0.6px 1.8px 0 rgba(0, 0, 0, 0.108); /* Command bars/Command dropdowns/Context menus */
     --depth-16: 0 6.4px 14.4px 0 rgba(0, 0, 0, 0.132), 0 1.2px 3.6px 0 rgba(0, 0, 0, 0.108); /*Hover cards
-Tooltips */
+  Tooltips */
     --depth-28: 0 0 8px rgba(0, 0, 0, 0.12), 0 14px 28px rgba(0, 0, 0, 0.14);
     --depth-64: 0 25.6px 57.6px 0 rgba(0, 0, 0, 0.22), 0 4.8px 14.4px 0 rgba(0, 0, 0, 0.18); /* Panels/Dialogs/Popups */
 
@@ -467,10 +467,10 @@ canvas.decorationsOverviewRuler {
 }
 
 /* .monaco-workbench .part.panel .pane-body.integrated-terminal .terminal-outer-container,
-  .xterm-viewport,
-  .xterm-link-layer,
-  .monaco-workbench .editor-instance .xterm-viewport,
-  .monaco-workbench .pane-body.integrated-terminal .xterm-viewport,  */
+    .xterm-viewport,
+    .xterm-link-layer,
+    .monaco-workbench .editor-instance .xterm-viewport,
+    .monaco-workbench .pane-body.integrated-terminal .xterm-viewport,  */
 .terminal {
     background: var(--card-bg) !important;
 }
@@ -688,12 +688,12 @@ canvas.decorationsOverviewRuler {
 }
 
 /* .monaco-workbench .monaco-list .monaco-list-row .monaco-highlighted-label .highlight {
-    color: var(--acccent-pressed-bg) !important;
-}
-
-.monaco-workbench .monaco-list .monaco-list-row.focused .monaco-highlighted-label .highlight {
-    color: var(--accent) !important;
-} */
+      color: var(--acccent-pressed-bg) !important;
+  }
+  
+  .monaco-workbench .monaco-list .monaco-list-row.focused .monaco-highlighted-label .highlight {
+      color: var(--accent) !important;
+  } */
 
 .monaco-select-box-dropdown-container
     > .select-box-dropdown-list-container
@@ -1133,7 +1133,7 @@ canvas.decorationsOverviewRuler {
 
 /* Search & Replace */
 .find-widget {
-    width: calc(100% - 32px) !important;
+    width: 419px !important;
     height: 42px !important;
     max-width: unset !important;
     box-shadow: var(--flyout-shadow) !important;
@@ -1151,7 +1151,7 @@ canvas.decorationsOverviewRuler {
 }
 
 .monaco-editor .find-widget.visible {
-    left: var(--s4);
+    right: 3rem !important;
     transform: translateY(var(--s4)) !important;
 }
 
